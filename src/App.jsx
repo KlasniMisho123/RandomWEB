@@ -1,3 +1,4 @@
+
 import Footer from "./Components/Footer"
 import Main from "./Components/Main"
 import Sidebar from "./Components/Sidebar"
@@ -12,4 +13,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

@@ -8,9 +8,10 @@ export default function Main() {
         </div>
         <div className='content-wrap'>
             <div className='content-div' > 
-                <input placeholder='Enter Hero Name ...'/>
-                <button>
-                    submit
+                <input placeholder='Enter Hero Name ...' id='heroInput'/>
+                <button className='submitHero'>
+                    <p>Search For hero</p>
+                    <i className="fa-solid fa-gavel hammerIcon"></i>
                 </button>
             </div>
         </div>
