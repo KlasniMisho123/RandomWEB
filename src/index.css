@@ -126,7 +126,7 @@ footer div a:hover {
   opacity: 70%;
 }
 
-sidebar {
+.sidebar {
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -135,6 +135,10 @@ sidebar {
   gap: 100px;
   padding: 10px;
   border-right: 1px solid white;
+}
+
+.sidebarClosed {
+  padding: 10px;
 }
 
 .sidebar-button {
